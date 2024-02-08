@@ -6,6 +6,7 @@ https://github.com/nova34tkj4/pintu-test.git
 Deploy use Gitlab & Jenkins 
 
 Gitlab 
+
 ![image](https://github.com/nova34tkj4/pintu-test/assets/26535997/bd708dfc-33b3-4816-82e1-dd640e7a3172)
 
 Connect repositories from github
@@ -22,7 +23,9 @@ build Success
 
 
 Jenkins
+
 Pipeline Jenkins 
+
 <img width="797" alt="image" src="https://github.com/nova34tkj4/pintu-test/assets/26535997/bcf82827-4d15-4752-9f17-203cb375c8a4">
 Store container image to a registry
 ![image](https://github.com/nova34tkj4/pintu-test/assets/26535997/d65680d5-ad1a-4f60-adb4-8dd38a7dfc25)
