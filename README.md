@@ -16,6 +16,7 @@ ci/cd variables
 ![image](https://github.com/nova34tkj4/pintu-test/assets/26535997/ae34f41c-6673-42aa-9080-c4157c132911)
 
 Gitlab-ci.yml
+
 <img width="551" alt="image" src="https://github.com/nova34tkj4/pintu-test/assets/26535997/299891c6-84e6-4d00-b360-af6421ab3511">
 
 build Success 
