@@ -7,12 +7,16 @@ Deploy use Gitlab & Jenkins
 
 Gitlab 
 ![image](https://github.com/nova34tkj4/pintu-test/assets/26535997/bd708dfc-33b3-4816-82e1-dd640e7a3172)
+
 Connect repositories from github
 ![image](https://github.com/nova34tkj4/pintu-test/assets/26535997/d1022c42-dcac-4e3a-a2e1-54afd4a50b3b)
+
 ci/cd variables 
 ![image](https://github.com/nova34tkj4/pintu-test/assets/26535997/ae34f41c-6673-42aa-9080-c4157c132911)
+
 Gitlab-ci.yml
 <img width="551" alt="image" src="https://github.com/nova34tkj4/pintu-test/assets/26535997/299891c6-84e6-4d00-b360-af6421ab3511">
+
 build Success 
 ![image](https://github.com/nova34tkj4/pintu-test/assets/26535997/e6930f88-a4a8-4e56-92ed-b83b3a32ce3d)
 
