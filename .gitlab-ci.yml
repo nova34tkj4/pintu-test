@@ -1,0 +1,26 @@
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  image: quay.io/buildah/stable
+  variables:
+    BUILDAH_FORMAT: docker
+  script:
+  - buildah login -u "${username}" -p "${password}" "${registry}"
+  - buildah build -t "${imagepintu}"
+  - buildah push "${imagepintu}"
+  only:
+    - main
+
+
+deploy:
+  stage: deploy
+  image: dtzar/helm-kubectl
+  script:
+  - export KUBECONFIG=$KUBECONFIG:"${KUBECONFIG_PROD}"
+  - kubectl rollout restart deployment "${namedeployment}" -n "${namespaces}"
+  - kubectl get pod -n "${namespaces}"
+  only:
+    - main
